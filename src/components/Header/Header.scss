@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 80vw;
+
+  &__title {
+    color: #152938;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 16px;
+  }
+}

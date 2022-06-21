@@ -1,0 +1,23 @@
+.button {
+  height: 52px;
+  padding: 0 24px;
+  border: none;
+  border-radius: 35px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+
+  &_ORANGE {
+    background-color: #FDA214;
+    color: #FCFCFC;
+  }
+
+  &_GREY {
+    background-color: #DFE7EC;
+    color: #304859;
+
+    &:active {
+      background-color: #6395B8;
+    }
+  }
+}
