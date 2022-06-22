@@ -1,0 +1,21 @@
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background-color: #BCCED9;
+  font-weight: bold;
+  font-size: 44px;
+  color: #FCFCFC;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #7191A5;
+  }
+
+  &:active {
+    background-color: #304859;
+  }
+}

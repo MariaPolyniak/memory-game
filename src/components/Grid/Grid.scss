@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  width: 572px;
+  height: 572px;
+  margin: 35px auto;
+  gap: 16px;
+
+  &-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
